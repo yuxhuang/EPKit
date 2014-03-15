@@ -1,4 +1,4 @@
-﻿namespace EPKit.ObjectGraph
+﻿namespace EPKit.ObjectGraph.Storage
 {
     public interface ISetStorage
     {

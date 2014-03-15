@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using EPKit.ObjectGraph.Storage;
 
 namespace EPKit.ObjectGraph
 {
-    public class Class1
+    interface IGraphContext
     {
+        Task Persist<T>(T value);
     }
 }

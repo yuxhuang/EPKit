@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace EPKit.ObjectGraph
+namespace EPKit.ObjectGraph.Storage
 {
     public interface ISortedSetStorage
     {

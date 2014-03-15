@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace EPKit.ObjectGraph
+namespace EPKit.ObjectGraph.Storage
 {
     public interface IObjectStorage
     {
