@@ -5,8 +5,6 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPKit.ObjectGraph.Example", "EPKit.ObjectGraph.Example\EPKit.ObjectGraph.Example.csproj", "{0727C87F-7022-491C-A10A-F9DC8083E50F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPKit.ObjectGraph", "EPKit.ObjectGraph.Core\EPKit.ObjectGraph.csproj", "{C1AA468A-16BE-4C54-BFE8-7EE9439F3835}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C9730FB1-9BB0-42D1-9D40-1B8222DD736B}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
@@ -14,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C9730F
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPKit.ObjectGraph", "EPKit.ObjectGraph\EPKit.ObjectGraph.csproj", "{C1AA468A-16BE-4C54-BFE8-7EE9439F3835}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8C3AB0BB-A025-4E44-9229-58F845118B08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

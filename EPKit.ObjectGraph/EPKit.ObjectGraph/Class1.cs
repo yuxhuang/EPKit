@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EPKit.ObjectGraph.Core
+namespace EPKit.ObjectGraph
 {
     public class Class1
     {
