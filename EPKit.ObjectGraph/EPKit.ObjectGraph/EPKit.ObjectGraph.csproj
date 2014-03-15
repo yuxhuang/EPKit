@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Annotations\IndexedAttribute.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="IHashStorage.cs" />
     <Compile Include="IObjectStorage.cs" />
     <Compile Include="ISetStorage.cs" />
