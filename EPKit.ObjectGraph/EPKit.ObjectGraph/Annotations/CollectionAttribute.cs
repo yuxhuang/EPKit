@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EPKit.ObjectGraph.Annotations
 {
-    public sealed class AssociatedAttribute : GraphPropertyAttribute
+    public sealed class CollectionAttribute : GraphPropertyAttribute
     {
     }
 }

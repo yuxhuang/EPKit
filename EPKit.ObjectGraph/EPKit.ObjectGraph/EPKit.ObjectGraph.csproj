@@ -41,10 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Annotations\GraphPropertyAttribute.cs" />
+    <Compile Include="GraphContextAnnotationExtensions.cs" />
+    <Compile Include="Annotations\AssociatedAttribute.cs" />
     <Compile Include="Annotations\HashAttribute.cs" />
     <Compile Include="Annotations\IdentifierAttribute.cs" />
-    <Compile Include="Annotations\AssociatedAttribute.cs" />
-    <Compile Include="Annotations\ListAttribute.cs" />
+    <Compile Include="Annotations\CollectionAttribute.cs" />
     <Compile Include="Annotations\SetAttribute.cs" />
     <Compile Include="Annotations\SortedSetAttribute.cs" />
     <Compile Include="IGraphContext.cs" />

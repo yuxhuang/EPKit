@@ -2,8 +2,7 @@
 
 namespace EPKit.ObjectGraph.Annotations
 {
-    [AttributeUsage(AttributeTargets.Property)]
-    public sealed class HashAttribute : Attribute
+    public sealed class HashAttribute : GraphPropertyAttribute
     {
     }
 }

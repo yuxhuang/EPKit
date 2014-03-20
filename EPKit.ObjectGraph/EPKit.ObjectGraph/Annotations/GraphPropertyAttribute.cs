@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace EPKit.ObjectGraph.Annotations
 {
-    [AttributeUsage(AttributeTargets.Property)]
-    public sealed class ListAttribute : Attribute
+    [AttributeUsage(AttributeTargets.Property, Inherited = true, AllowMultiple = false)]
+    public class GraphPropertyAttribute : Attribute
     {
     }
 }

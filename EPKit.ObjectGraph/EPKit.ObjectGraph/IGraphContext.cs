@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EPKit.ObjectGraph
 {
-    interface IGraphContext
+    public interface IGraphContext
     {
         /// <summary>
         /// Persist one object
@@ -15,7 +15,7 @@ namespace EPKit.ObjectGraph
         /// <typeparam name="T"></typeparam>
         /// <param name="value"></param>
         /// <returns></returns>
-        Task Persist<T>(T value);
+        Task Persist<T>(T value) where T : class, new();
 
         /// <summary>
         /// Remove one object
@@ -23,14 +23,14 @@ namespace EPKit.ObjectGraph
         /// <typeparam name="T"></typeparam>
         /// <param name="value"></param>
         /// <returns></returns>
-        Task Remove<T>(T value);
+        Task Remove<T>(T value) where T : class, new();
 
         /// <summary>
         /// Remove one object by Id
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        Task RemoveById<T>(string id);
+        Task RemoveById<T>(string id) where T : class, new();
         
         /// <summary>
         /// Get a collection of items according to the condition
@@ -48,6 +48,6 @@ namespace EPKit.ObjectGraph
         /// <param name="id"></param>
         /// <param name="includes"></param>
         /// <returns></returns>
-        Task<T> GetById<T>(string id, params Expression<Func<T, object>>[] includes);
+        Task<T> GetById<T>(string id, params Expression<Func<T, object>>[] includes) where T : class, new();
     }
 }
