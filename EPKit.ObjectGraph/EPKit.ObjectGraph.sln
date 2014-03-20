@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPKit.ObjectGraph", "EPKit.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8C3AB0BB-A025-4E44-9229-58F845118B08}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementations", "Implementations", "{B8AC3E45-D2A2-45ED-9661-6AEE04F2DEEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPKit.ObjectGraph.Redis", "EPKit.ObjectGraph.Redis\EPKit.ObjectGraph.Redis.csproj", "{7C09CF8B-A459-4B17-B5B3-A116B9C728BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		AppStore|Any CPU = AppStore|Any CPU
@@ -36,9 +40,18 @@ Global
 		{C1AA468A-16BE-4C54-BFE8-7EE9439F3835}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1AA468A-16BE-4C54-BFE8-7EE9439F3835}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1AA468A-16BE-4C54-BFE8-7EE9439F3835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C09CF8B-A459-4B17-B5B3-A116B9C728BA}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{7C09CF8B-A459-4B17-B5B3-A116B9C728BA}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{7C09CF8B-A459-4B17-B5B3-A116B9C728BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C09CF8B-A459-4B17-B5B3-A116B9C728BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C09CF8B-A459-4B17-B5B3-A116B9C728BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C09CF8B-A459-4B17-B5B3-A116B9C728BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C09CF8B-A459-4B17-B5B3-A116B9C728BA} = {B8AC3E45-D2A2-45ED-9661-6AEE04F2DEEE}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = EPKit.ObjectGraph.Example\EPKit.ObjectGraph.Example.csproj
