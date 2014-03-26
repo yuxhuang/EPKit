@@ -208,9 +208,6 @@ namespace EPKit.ObjectGraph.Redis
                             method.Invoke(instance, new [] {value});
                         }
                     }
-
-                done:
-                    ;
                 }
 
                 return result;
